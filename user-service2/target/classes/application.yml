@@ -1,0 +1,14 @@
+server:
+  port: 9091
+spring:
+  application:
+    name: user-service
+  datasource:
+      password: lixin
+      username: lixin
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://47.102.153.125:3306/lixin?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&failOverReadOnly=false&maxReconnects=15000
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10002/eureka,http://localhost:10001/eureka
