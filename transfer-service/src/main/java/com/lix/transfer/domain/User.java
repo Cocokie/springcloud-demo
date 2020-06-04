@@ -1,4 +1,4 @@
-package com.lix.user.domain;
+package com.lix.transfer.domain;
 
 import lombok.Data;
 

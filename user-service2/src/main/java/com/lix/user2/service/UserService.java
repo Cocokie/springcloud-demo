@@ -1,7 +1,7 @@
-package com.lix.user.service;
+package com.lix.user2.service;
 
-import com.lix.user.domain.User;
-import com.lix.user.mapper.UserMapper;
+import com.lix.user2.domain.User;
+import com.lix.user2.mapper.UserMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,9 +1,10 @@
-package user;
+package com.lix.user2;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+import tk.mybatis.spring.annotation.MapperScan;
 
 /**
  * @program: springcloud-demo
@@ -15,6 +16,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 @SpringBootApplication
 @EnableCircuitBreaker
 @EnableDiscoveryClient
+@MapperScan("com.lix.user2.mapper")
 public class User_app9091 {
     public static void main(String[] args) {
         SpringApplication.run(User_app9091.class, args);

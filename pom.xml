@@ -12,6 +12,7 @@
         <module>eureka-server-10001</module>
         <module>user-service</module>
         <module>user-service2</module>
+        <module>transfer-service</module>
     </modules>
     <packaging>pom</packaging>
     <properties>
@@ -67,6 +68,11 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>1.16.22</version>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.58</version>
         </dependency>
     </dependencies>
 </project>
